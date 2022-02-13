@@ -1,32 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {font-family: "Times New Roman", Georgia, Serif;}
-        h1, h2, h3, h4, h5, h6 {
-          font-family: "Playfair Display";
-          letter-spacing: 5px;
-        }
-        </style>
-    <head><title>Ipeleng Mothibi</title></head>
-<body style="background-color:rgb(236, 243, 241);">
+  <meta charset="UTF-8">
+  <meta name="description" content="My very first website">
+  <meta name="author" conten="Ipeleng Mothibi">
+  <meta name="keywords" content="HTML,CSS,Javascript,Website,Codetribe">
+  <title>Ipeleng Mothibi</title>
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css"> 
+       
+    </head>
+<body  style="background-color: bisque;">
+      <style> 
+         .social-icon { color: #aaaaaa;} </style>
+
     
     <header>
         <!-- NavBar -->
-        
-        <nav>
-        <a href="#">Home </a>
-        <a href="about.html" > About Me</a>
-        <a href="Contact.html"> Contact Me</a>
-        </nav>
+        <table id="headerTable" border="1">
+          <tr>
+            <td>
+                    <img id="logo" src="./Assets/icons/logoss.png" alt="">
+                </td>
+            <td align ="right>">
+              <nav>
+                <a href="#">Home </a>
+                <a href="about.html" > About Me</a>
+                <a href="Contact.html"> Contact Me</a>
+                </nav>
+            </td>
+           
+          </tr>
+        </table>
        
+      
      </header>
     <main>
-      <h1>Home Page</h1> 
-      <img src="./Asserts/images/application senep\codetribe Assignment\Asserts\videos\20.jpg" width= "500px" alt ="Background Image">
-     <video height="300px" poster="./Asserts/thumbnail/pexels-pixabay-33688.jpg" loop controls src="./Asserts/videos/Pexels Videos 3867.mp4"></video>
+      <table id="maintable">
+        <tr>
+          <td colspan="2">
+            <video height="300px" poster="./Asserts/thumbnail/pexels-pixabay-33688.jpg" loop controls src="./Asserts/videos/video.mp4"></video>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="50%;" >
+            <div class="bioBox">
+              <h1><b>Bio</b></h1>
+              < <p><h4>I am currently looking for internship, a place where I’ll be able to apply the programming and 
+                system development skills I’ve learnt.<br> So far I have been involved in the development of a 
+                Farming management System which we did as a final year project, I was involved throughout 
+                the SDLC stages,<br> ERD designs, as well as the web development<br> and system user interface 
+                designs and<br> I would love to bring both my technical and soft skills to help advance your growing 
+                team,<br> Recently Im exploring cloud computing , given where were headed as a civilization,<br> a lot of companies are gonna go cloud, and i want to be a part of it.</h4></p>
+   
+            <a href="./about.html">
+                <button class="btn">Learn more...</button>
+            </a>
+        </div>
+    </td>
+    <td align="right">
+        <img id="userImage" src="./Asserts/images/webimage.jpeg" alt="">
+    </td>
+</tr>
+      </table>
+      
   <!-- an unspecified error occured-->
     </main>
-<footer></footer>
+<footer>
+  <h1>Reach me</h1>
+            
+           
+           <a class =".social-icon" href="https://www.instagram.com/idareign/" target ="_blank">
+           <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+
+            <a class =".social-icon" href="https://www.linkedin.com/in/ipeleng-mothibi-780431159/" target ="_blank"> 
+              <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+            
+            <a class =".social-icon" href="https://www.facebook.com/profile.php?id=100006281161168" target ="_blank"> 
+              <ion-icon name="logo-facebook"></ion-icon>
+
+
+              
+  
+            </a>
+            <a  href="ipelengmothibi88@gmail.com"> 
+            
+            </a>
+
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
